@@ -1,0 +1,115 @@
+/*====== HOMEPAGE ======*/
+
+body{
+    background-color: black;
+    color: white;
+   padding-top: 110px;
+}
+
+#header{
+    background-color: rgb(29, 171, 162);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 500;
+    width: 100%;
+    height: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+#header .button{
+    width: 120px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+#header h1{
+    margin: 10px;
+    font-weight: 800;
+}
+
+table{
+  width: 250px;
+  border-collapse: collapse;
+  font-family: sans-serif;
+}
+
+td{
+  border-top: 1px solid teal;
+  padding: 12px;
+  text-align: left;
+}
+
+tr:hover{
+  background-color: crimson;
+}
+
+tr{
+  transition: background-color 0.3s ease;
+}
+
+/*====== BUTTONS ======*/
+
+.button{
+    color: white;
+    width: 70px;
+    height: 30px;
+    border: 0;
+    background-color: crimson;
+    border-radius: 8px;
+}
+
+.button:hover{
+    background-color: rgb(2, 94, 94);
+}
+
+/*====== EDIT CONTACT PAGE AVATAR ======*/
+
+#avatarImage{
+
+    background: black;
+    width: 180px;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px
+}
+
+form {
+  width: 300px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  background-color: teal;
+  padding: 15px;
+  border-radius: 8px;
+  height: auto;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+input[type="text"] {
+  width: 90%;
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  background-color: rgb(32, 165, 165);
+  border-radius: 4px;
+  color: white;
+}
+
+input[type="file"] {
+    
+  width: 90%;
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  background-color: rgb(32, 165, 165);
+  border-radius: 4px;
+  color: white;
+}
+
+
